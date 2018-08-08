@@ -26,7 +26,7 @@
     <nav class="is-fixed-top navbar" style="padding-top: 10px;">
         <div class="container">
             <div class="navbar-brand">
-                <a class="pb navbar-item" style="padding-top:0px; padding-bottom:0px;" href="/">
+                <a class="pb navbar-item" style="padding-top:0px; padding-bottom:0px;" href="index.html">
                     <img style="max-height:100% !important;" width="250" src="public/images/logo/logo.svg" alt="Gramateas">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -37,10 +37,10 @@
             </div>
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item pb" rel="noopener" rel="noreferrer" href="/about">
+                    <a class="navbar-item pb" href="#features">
                         features
                     </a>
-                    <a class="navbar-item" target="_blank" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
+                    <a class="navbar-item" target="_blank" rel="noopener" rel="noreferrer" href="blog.html">
                         blog
                     </a>
                 </div>
@@ -48,13 +48,13 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                             <p class="control">
-                                <a class="button gramateas-fill" id="register" rel="noopener" rel="noreferrer" href="/account/register">
-                                    ⭐ Subscribe
+                                    <a class="button gramateas-fill" id="register" rel="noopener" rel="noreferrer" href="http://eepurl.com/dDx9BT">
+                                        ⭐ Subscribe
                                 </a>
                             </p>
                             <p class="control bd-more-loves-container">
                                 <a class="button is-danger bd-rainbow" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://www.SimpleQ.io/"
-                                    target="_blank" rel="noopener" rel="noreferrer" href="https://twitter.com/intent/tweet?text=SimpleQ: Your playfull AI friend that grows with you&amp;hashtags=SimpleQ&amp;url=https://www.SimpleQ.io&amp;via=getSimpleQ">
+                                    target="_blank" rel="noopener" rel="noreferrer" href="https://twitter.com/intent/tweet?text=Gramateas allows you to get advice for daily parts of your urban life.&amp;hashtags=berlin&amp;url=https://gramateas.com&amp;via=czioutas">
                                     Show some &nbsp;
                                     <strong>love</strong> &nbsp; 🤗
                                 </a>
@@ -82,14 +82,14 @@
                             Simply hit us up on the chat and go!
                         </p>
                         <div class="buttons has-addons is-left">
-                            <button class="button has-text-left gramateas-fill is-large">
+                            <button onclick="$crisp.push(['do', 'chat:open']);" class="button has-text-left gramateas-fill is-large">
                                 Chat 💬
                             </button>
                         </div>
                     </div>
                     <div class="column is-5 has-text-centered">
                         <div class="wrapper">
-                            <img id="botdemo" src="public/images/organizing_projects.svg" alt="" onclick="document.getElementById('botdemo').src='./public/images/botpreview-no-loop.gif'"
+                            <img id="botdemo" src="public/images/organizing_projects.svg" alt="Gramateas"
                             />
                         </div>
                     </div>
@@ -99,7 +99,7 @@
     </section>
 
 
-    <section class="hero is-light intro-panel">
+    <section class="hero is-light intro-panel" id="features">
         <div class="hero-body intro-panel-overlay" style="padding-bottom: 150px !important;">
             <div class="container">
                 <nav class="columns has-text-centered is-centered is-multiline">
@@ -198,7 +198,7 @@
                             Simply hit us up on the chat and go!
                         </p>
                         <div class="buttons has-addons is-centered">
-                            <button class="button has-text-left gramateas-fill is-large">
+                            <button onclick="$crisp.push(['do', 'chat:open']);" class="is-fullwidth button has-text-left gramateas-fill is-large">
                                 Chat 💬
                             </button>
                         </div>
@@ -209,113 +209,111 @@
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="content">
-                        <h3>
-                            Gramateas
-                        </h3>
-                        <p>
-                            Ask questions about your daily life tasks.
-                        </p>
-                        <p>
-                            Get help about rent, liabilities or your rights! 💪
-                        </p>
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="content">
+                            <h3>
+                                Gramateas
+                            </h3>
+                            <p>
+                                Ask questions about your daily life tasks.
+                            </p>
+                            <p>
+                                Get help about rent, liabilities or your rights! 💪
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <h3>
+                                About
+                            </h3>
+                            <ul class="">
+                                <li>
+                                    <a rel="noopener" rel="noreferrer" href="https://medium.com/@@gramateas" target="_blank">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a rel="noopener" rel="noreferrer" href="mailto:chriszioutas@gmail.com">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <h3>
+                                Legal
+                            </h3>
+                            <ul class="links-vertical">
+                                <li>
+                                    <a rel="noopener" rel="noreferrer" href="privacy.html">
+                                        Privacy Policy
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a rel="noopener" rel="noreferrer" href="tos.html">
+                                        Terms of Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a rel="noopener" rel="noreferrer" href="imprint.html">
+                                        Imprint
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <h3>
+                                Social
+                            </h3>
+                            <ul>
+                                <li>
+                                    <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://twitter.com/czioutas">
+                                        <i class="fab fa-twitter" aria-hidden="true"> </i> Twitter
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="content">
-                        <h3>
-                            About
-                        </h3>
-                        <ul class="">
-                            <li>
-                                <a rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ" target="_blank">
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a rel="noopener" rel="noreferrer" href="/about">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a rel="noopener" rel="noreferrer" href="mailto:support@SimpleQ.io">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
+    
+                <div class="columns is-multiline is-centered">
+                    <div class="column is-3">
+                        <a rel="noopener" rel="noreferrer" href="https://bulma.io" target="_blank">
+                            <img src="public/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                        </a>
                     </div>
-                </div>
-                <div class="column">
-                    <div class="content">
-                        <h3>
-                            Legal
-                        </h3>
-                        <ul class="links-vertical">
-                            <li>
-                                <a rel="noopener" rel="noreferrer" href="/privacy">
-                                    Privacy Policy
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </li>
-                            <li>
-                                <a rel="noopener" rel="noreferrer" href="/tos">
-                                    Terms of Service
-                                </a>
-                            </li>
-                        </ul>
+    
+                    <div class="column is-6 has-text-centered-tablet">
+                        Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> Gramateas All rights reserved.
                     </div>
-                </div>
-                <div class="column">
-                    <div class="content">
-                        <h3>
-                            Social
-                        </h3>
-                        <ul>
-                            <li>
-                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://twitter.com/getSimpleQ">
-                                    <i class="fab fa-twitter" aria-hidden="true"> </i> Twitter
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
-                                    <i class="fab fa-medium" aria-hidden="true"> </i> Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://join.slack.com/t/getSimpleQ/shared_invite/enQtMzc2MDg4NzIzNDU3LWU0NjczMzU2ZTUwNTAyMTliNGE3NDhjZTVkNDY3MTVkMDNhYjE2NzNiZGVmOTNjOWI5NWQ1OTE5ZDFkYTdiNzI">
-                                    <i class="fab fa-slack" aria-hidden="true"> </i> Slack
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="column is-3 has-text-centered-tablet">
+                        <div class="">
+                            Made with 💜 in Berlin
+                        </div>
                     </div>
+                    
+                    <div class="column is-12 has-text-centered">
+                            ⚠️ The materials available at this web site are for informational purposes only and not for the purpose of providing legal advice. ⚠️
+                        </div>
                 </div>
             </div>
+        </footer>
 
-            <div class="columns is-multiline is-centered">
-                <div class="column is-3">
-                    <a rel="noopener" rel="noreferrer" href="https://bulma.io" target="_blank">
-                        <img src="public/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                    </a>
-                </div>
-
-                <div class="column is-6 has-text-centered-tablet">
-                    Copyright ©
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script> Gramateas All rights reserved.
-                </div>
-                <div class="column is-3 has-text-centered-tablet">
-                    <div class="">
-                        Made with 💜 in Berlin
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="72ebd3ee-4342-4f6e-89b6-e48993b2e721";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"7ca6480edb851ec83c7c9b800","lid":"afb7aca4c5"}) })
+    </script>
 </body>
 
 </html>
