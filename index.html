@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" type="image/png" href="public/favicon.ico" />
+
+    <title> Gramateas </title>
+
+    <link rel="stylesheet" href="public/css/bulma.min.css" />
+    <link rel="stylesheet" href="public/css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+</head>
+
+<body class="layout-default">
+    <nav class="is-fixed-top navbar" style="padding-top: 10px;">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="pb navbar-item" style="padding-top:0px; padding-bottom:0px;" href="/">
+                    <img style="max-height:100% !important;" width="250" src="public/images/logo/logo.svg" alt="Gramateas">
+                </a>
+                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item pb" rel="noopener" rel="noreferrer" href="/about">
+                        features
+                    </a>
+                    <a class="navbar-item" target="_blank" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
+                        blog
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="field is-grouped">
+                            <p class="control">
+                                <a class="button gramateas-fill" id="register" rel="noopener" rel="noreferrer" href="/account/register">
+                                    ⭐ Subscribe
+                                </a>
+                            </p>
+                            <p class="control bd-more-loves-container">
+                                <a class="button is-danger bd-rainbow" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://www.SimpleQ.io/"
+                                    target="_blank" rel="noopener" rel="noreferrer" href="https://twitter.com/intent/tweet?text=SimpleQ: Your playfull AI friend that grows with you&amp;hashtags=SimpleQ&amp;url=https://www.SimpleQ.io&amp;via=getSimpleQ">
+                                    Show some &nbsp;
+                                    <strong>love</strong> &nbsp; 🤗
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is-centered is-multiline">
+                    <div class="column is-6 has-text-centered">
+                        <h1 class="title is-size-2 has-text-left is-size-3-mobile" style="margin-bottom: 35px;">
+                            Sometimes we need
+                            <strong>help</strong> with day to day tasks.
+                        </h1>
+                        <p class="subtitle is-size-4 has-text-left">
+                            Gramateas helps you with anything you might need advice with.
+                        </p>
+                        <p class="subtitle is-size-4 has-text-left">
+                            Simply hit us up on the chat and go!
+                        </p>
+                        <div class="buttons has-addons is-left">
+                            <button class="button has-text-left gramateas-fill is-large">
+                                Chat 💬
+                            </button>
+                        </div>
+                    </div>
+                    <div class="column is-5 has-text-centered">
+                        <div class="wrapper">
+                            <img id="botdemo" src="public/images/organizing_projects.svg" alt="" onclick="document.getElementById('botdemo').src='./public/images/botpreview-no-loop.gif'"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-light intro-panel">
+        <div class="hero-body intro-panel-overlay" style="padding-bottom: 150px !important;">
+            <div class="container">
+                <nav class="columns has-text-centered is-centered is-multiline">
+                    <div class="column is-8">
+                        <div class="">
+                            <div class="columns is-vcentered is-multiline">
+                                <div class="column is-12">
+                                    <p class="title is-size-2 is-size-3-mobile ">
+                                        Gramateas helps you focus on things that matter!
+                                    </p>
+                                </div>
+                                <div class="column is-12">
+                                </div>
+                                <div class="column is-12">
+                                </div>
+                                <div class="column is-4 has-text-centered is-hidden-mobile">
+                                    <img style="max-height:100% !important;" width="500" src="public/images/a_day_at_the_park_owg.svg" alt="Quma - Coming soon">
+                                </div>
+                                <div class="column is-8">
+                                    <p class="subtitle is-size-4 is-size-4-mobile ">
+                                        We have so little time, to do so many things.
+                                    </p>
+                                    <p class="subtitle is-size-4 is-size-4-mobile ">
+                                        Gramateas allows you to get advice for daily parts of your urban life.
+                                    </p>
+                                </div>
+                                <div class="column is-12">
+                                    <hr class="style-six" />
+                                </div>
+                                <div class="column is-10 is-offset-2">
+                                    <div class="tile is-ancestor">
+                                        <div class="tile is-5 is-vertical is-parent">
+                                            <div class="tile is-child box">
+                                                <p class="subtitle">
+                                                    <span class="icon is-large">
+                                                        <i class="fa fa-3x fa-home" style="color: #00d1b2;"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="title is-4">Renter's rights</p>
+                                            </div>
+                                            <div class="tile is-child box">
+                                                <p class="subtitle">
+                                                    <span class="icon is-large">
+                                                        <i class="fa fa-3x fa-briefcase-medical" style="color: #00d1b2;"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="title is-4">Health & Insurance</p>
+                                            </div>
+                                        </div>
+                                        <div class="tile is-5 is-vertical is-parent">
+                                            <div class="tile is-child box">
+                                                <p class="subtitle">
+                                                    <span class="icon is-large">
+                                                        <i class="fa fa-3x fa-balance-scale" style="color: #00d1b2;"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="title is-4">City registration</p>
+                                            </div>
+                                            <div class="tile is-child box">
+                                                <p class="subtitle">
+                                                    <span class="icon is-large">
+                                                        <i class="fa fa-3x fa-bus" style="color: #00d1b2;"></i>
+                                                    </span>
+                                                </p>
+                                                <p class="title is-4">Transportation</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered is-centered is-multiline">
+                    <div class="column is-5 has-text-centered">
+                        <div class="wrapper">
+                            <img id="botdemo" src="public/images/berlin-ubhan.gif" alt="" onclick="document.getElementById('botdemo').src='./public/images/botpreview-no-loop.gif'"
+                            />
+                        </div>
+                    </div>
+                    <div class="column is-6 has-text-centered">
+                        <h1 class="title is-size-2 has-text-left is-size-3-mobile" style="margin-bottom: 35px;">
+                            We are opening our doors to Berlin! 🚀
+                        </h1>
+                        <p class="subtitle is-size-4 has-text-left">
+                            We have a limited capacity so for now we can help 100 people!
+                        </p>
+                        <p class="subtitle is-size-4 has-text-left">
+                            Simply hit us up on the chat and go!
+                        </p>
+                        <div class="buttons has-addons is-centered">
+                            <button class="button has-text-left gramateas-fill is-large">
+                                Chat 💬
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            Gramateas
+                        </h3>
+                        <p>
+                            Ask questions about your daily life tasks.
+                        </p>
+                        <p>
+                            Get help about rent, liabilities or your rights! 💪
+                        </p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            About
+                        </h3>
+                        <ul class="">
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ" target="_blank">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/about">
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="mailto:support@SimpleQ.io">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            Legal
+                        </h3>
+                        <ul class="links-vertical">
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/privacy">
+                                    Privacy Policy
+                                    <div class="ripple-container"></div>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" rel="noreferrer" href="/tos">
+                                    Terms of Service
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>
+                            Social
+                        </h3>
+                        <ul>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://twitter.com/getSimpleQ">
+                                    <i class="fab fa-twitter" aria-hidden="true"> </i> Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://medium.com/@@SimpleQ">
+                                    <i class="fab fa-medium" aria-hidden="true"> </i> Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="" rel="noopener" rel="noreferrer" href="https://join.slack.com/t/getSimpleQ/shared_invite/enQtMzc2MDg4NzIzNDU3LWU0NjczMzU2ZTUwNTAyMTliNGE3NDhjZTVkNDY3MTVkMDNhYjE2NzNiZGVmOTNjOWI5NWQ1OTE5ZDFkYTdiNzI">
+                                    <i class="fab fa-slack" aria-hidden="true"> </i> Slack
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns is-multiline is-centered">
+                <div class="column is-3">
+                    <a rel="noopener" rel="noreferrer" href="https://bulma.io" target="_blank">
+                        <img src="public/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+                </div>
+
+                <div class="column is-6 has-text-centered-tablet">
+                    Copyright ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Gramateas All rights reserved.
+                </div>
+                <div class="column is-3 has-text-centered-tablet">
+                    <div class="">
+                        Made with 💜 in Berlin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
